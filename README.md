@@ -6,6 +6,8 @@ Os design patterns existentes são:
 
 * Strategy
 * Decorator
+* Singleton
+* Observer
 
 Vou atualizando conforme meus estudos sobre forem progredindo.
 

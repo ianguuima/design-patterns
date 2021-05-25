@@ -1,5 +1,3 @@
-package me.ianguuima.singleton;
-
 class Database {
 
     // a classe deve ser única, portanto, ninguém pode instancia-la

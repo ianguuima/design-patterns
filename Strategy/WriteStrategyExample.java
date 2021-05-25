@@ -1,5 +1,3 @@
-package me.ianguuima.strategy;
-
 interface WriteStrategy {
     void write();
 }
@@ -43,7 +41,7 @@ class PencilStrategy implements WriteStrategy {
 }
 
 
-class WriteMain {
+class WriteStrategyExample {
 
     public static void main(String[] args) {
         WriteContext writeContext = new WriteContext();

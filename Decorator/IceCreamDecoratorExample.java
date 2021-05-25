@@ -1,5 +1,3 @@
-package me.ianguuima.decorator;
-
 interface IceCream {
     String getFlavor();
 }
@@ -45,7 +43,7 @@ class IceCreamWithChocolate extends IceCreamDecorator {
     }
 }
 
-public class Decorator {
+public class IceCreamDecoratorExample {
 
     public static void main(String[] args) {
         IceCream vanilla = new SimpleIceCream("Vanilla");

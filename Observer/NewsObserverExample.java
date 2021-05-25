@@ -1,5 +1,3 @@
-package me.ianguuima.observer;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -41,7 +39,7 @@ class NewsPaperChannel implements EventListener {
     }
 }
 
-class Observer {
+class NewsObserverExample {
 
     public static void main(String[] args) {
         NewsAgency newsAgency = new NewsAgency();
